@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EHN Prototype Hub</title>
+    <style>
+      body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; background:#0b0f16; color:#fff; }
+      .shell { display:grid; grid-template-columns: 260px 1fr; min-height:100vh; }
+      .sidebar { padding:20px; background:rgba(255,255,255,0.04); border-right:1px solid rgba(255,255,255,0.1); position:sticky; top:0; height:100vh; overflow:auto; }
+      .brand { font-weight:700; margin-bottom:12px; }
+      a { color:#fff; text-decoration:none; }
+      .nav a { display:block; padding:10px; border-radius:10px; margin-bottom:6px; }
+      .nav a:hover { background:rgba(255,255,255,0.10); }
+      .main { padding:20px; }
+      .card { border:1px solid rgba(255,255,255,0.10); background:rgba(255,255,255,0.04); border-radius:16px; padding:14px; margin-bottom:14px; }
+      iframe { width:100%; height:80vh; border:0; border-radius:16px; background:#000; }
+      h2 { margin:0 0 10px; font-size:18px; }
+      .toplink { opacity:0.8; font-size:12px; }
+      @media (max-width: 900px) {
+        .shell { grid-template-columns: 1fr; }
+        .sidebar { position:relative; height:auto; }
+        iframe { height:70vh; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">EHN Prototype Hub</div>
+        <div class="nav">
+          <a href="#recipient">Recipient</a>
+          <a href="#donor-account">Donor (with account)</a>
+          <a href="#external-donor">External Link Donor</a>
+          <a href="#super-admin">Super Admin</a>
+          <a href="#admin">Admin</a>
+          <a href="#new-partner">New Partner</a>
+          <a href="#returning-partner">Returning Partner</a>
+        </div>
+      </aside>
+
+      <main class="main">
+        <section id="recipient" class="card">
+          <h2>Recipient <a class="toplink" href="#top">(top)</a></h2>
+          <iframe
+            src="https://embed.figma.com/proto/s60k9rsqz1fAWB9Utlg7vf/EHN---Recipient?page-id=515%3A5478&node-id=662-6896&viewport=78%2C-3914%2C0.33&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2009%3A20853&show-proto-sidebar=1&embed-host=share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section id="donor-account" class="card">
+          <h2>Donor (with account)</h2>
+          <iframe
+            src="https://embed.figma.com/proto/DmJ5L98lTz4M6LWM6MX37H/EHN---Donor-w--Account?page-id=537%3A20757&node-id=555-5711&viewport=-138%2C407%2C0.27&scaling=scale-down&content-scaling=fixed&starting-point-node-id=555%3A5711&show-proto-sidebar=1&embed-host=share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section id="external-donor" class="card">
+          <h2>External Link Donor</h2>
+          <iframe
+            src="https://embed.figma.com/proto/FK0ifP5KmntoslOuawKmKh/EHN---External-Link-Donor?page-id=601%3A6356&node-id=2010-225&viewport=-315%2C1409%2C0.33&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2010%3A225&show-proto-sidebar=1&embed-host=share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section id="super-admin" class="card">
+          <h2>Super Admin</h2>
+          <iframe
+            src="https://embed.figma.com/proto/AcogvrvrsQkfyuQs8ILymb/EHN---Super-Admin?page-id=537%3A29566&node-id=674-16912&viewport=416%2C-3307%2C0.39&t=2uxKxxwqljRjaUeN-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=674%3A16912&show-proto-sidebar=1&embed-host=share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section id="admin" class="card">
+          <h2>Admin</h2>
+          <iframe
+            src="https://embed.figma.com/proto/SPnQcZSTumEtvTN8W3vl0X/EHN---Admin?page-id=537%3A37964&node-id=2007-876&viewport=140%2C-5810%2C0.31&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2007%3A876&embed-host=share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section id="new-partner" class="card">
+          <h2>New Partner</h2>
+          <iframe
+            src="https://embed.figma.com/proto/dHfu8wNPBi8d5N2rnJVpHt/EHN---New-Partner?page-id=537%3A44917&node-id=2012-1695&viewport=149%2C-5762%2C0.22&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2012%3A1695&show-proto-sidebar=1&embed-host=share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section id="returning-partner" class="card">
+          <h2>Returning Partner</h2>
+          <iframe
+            src="https://embed.figma.com/proto/Mtje31vN8fV9LkxX9lqb5W/EHN---Returning-Partner?page-id=537%3A44917&node-id=682-17956&viewport=567%2C-6886%2C0.25&scaling=scale-down&content-scaling=fixed&starting-point-node-id=682%3A17956&show-proto-sidebar=1&embed-host=share"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
